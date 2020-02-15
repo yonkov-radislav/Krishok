@@ -1,0 +1,231 @@
+
+  /* Header */
+@import "header_css";
+
+
+  /* header-main-img */
+
+  header{
+    margin-bottom: 80px;
+  }
+
+.header-img {
+  background-image: url('../img/contacts-img/main-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+
+ .box-in-img{
+   background: rgba(0, 0, 0, 0.61);
+   height: 550px;
+   text-align: center;
+ }
+  h2{
+    color:white;
+    margin: 0px 0px 25px 0px;
+    padding-top: 150px;
+    font-family: $serif-text;
+    letter-spacing: 6px;
+
+  }
+  p{
+    display: block;
+    margin: 0px auto 67px;
+    width: 49%;
+    color: white;
+    font-size: 0.875em; /* 14px */
+    line-height: 23px;
+  }
+  a{
+    background: $button-green;
+    display: block;
+    margin: 0 auto;
+    width: 13%;
+    height: 46px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 46px;
+    font-size:  0.875em;  /* 14px */
+    font-weight: bold;
+  }
+}
+
+  /* Contact form */
+
+  .contact-form{
+    padding: 0px 64px;
+  }
+  h4{
+    margin-bottom: 40px;
+    font-family: $serif-text;
+    font-weight: bold;
+  }
+
+ input{
+   display: block;
+   width: 100%;
+   height: 55px;
+   border: 1px solid #d0d0d0;
+   margin-bottom: 10px;
+   padding-left: 25px;
+   font-size: 0.875em;  /* 14px */
+ }
+
+ textarea{
+   width: 100%;
+   padding: 20px 23px;
+   margin-bottom: 10px;
+   border: 1px solid #d0d0d0;
+   height: 140px;
+   font-size: 0.875em;  /* 14px */
+ }
+
+ #send{
+   background: $button-green;
+   display: block;
+   width: 100%;
+   height: 46px;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   line-height: 46px;
+   font-size:  0.875em;  /* 14px */
+   font-weight: bold;
+ }
+
+ /* Right content*/
+
+  .box-office-address{
+    border: 1px solid #d0d0d0;
+    font-size:  0.875em;  /* 14px */
+    line-height: 21px;
+    padding: 33px 24px;
+    #work-time{
+      display: block;
+      margin: 25px 0px;
+    }
+
+    #info-address{
+      display: block;
+      margin: 25px 0px;
+    }
+  }
+
+  /* HR-separate */
+
+  #devider{
+    margin: 80px 0px;
+    border: 0;
+    border-top: 2px solid #d0d0d0;
+  }
+
+  /*  Maps */
+
+.map{
+  text-align: center;
+  #map-text{
+    margin-bottom: 25px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+  }
+  #p-map-text{
+    margin-bottom: 50px;
+    font-size:  0.875em;  /* 14px */
+  }
+
+  iframe{
+    width: 100%;
+  }
+}
+
+  #scroll-to-top-btn{
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    height: 43px;
+    background: #3f7d20;
+    border: none;
+    border-radius: 8px;
+    font-size: 31px;
+    color: white;
+    z-index: 999;
+  }
+
+ /* Foother */
+
+  @import "footer_css";
+
+
+  /* ---------------------------------------------Responsive------------------------------------------------------- */
+
+  /* Footer */
+
+  @media only screen and (max-width: 960px) {
+    .icons{
+      position: static;
+    }
+  }
+  @media only screen and (max-width: 760px) {
+    .navbarr {
+      padding-top: 10px;
+      height: auto;
+    }
+    #main-logo {
+      float: none;
+      margin: 0 auto 10px;
+    }
+    #main-menu {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #main-menu ul {
+      display: inline-block;
+    }
+
+  }
+
+  @media only screen and (max-width: 500px){
+    .navbarr{
+      margin-bottom: 20px;
+    }
+    #main-menu{
+      display: none;
+
+      li{
+        float: none;
+      }
+
+    }
+    .content{
+      text-align: center;
+      line-height: 50px;
+      color: white;
+      font-size: 0.750em; /*12px */
+      .telephone{
+        margin-right: 1px;
+      }
+      .email{
+        padding-left: 3px;
+        margin-right: 4px;
+      }
+      .right-content{
+        float: none;
+        .language{
+          margin-right: 3px;
+        }
+        .login{
+          padding-left: 4px;
+        }
+      }
+    }
+    #menu-toggle{
+      display: block;
+      height: 30px;
+      margin-right: 15px;
+    }
+  }

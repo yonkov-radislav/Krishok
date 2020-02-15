@@ -1,0 +1,112 @@
+/* Header */
+@import "header_css";
+
+
+.header-img {
+  background-image: url('../img/checkout-img.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+
+  .box-in-img{
+    background: #0000009c;
+    height: 550px;
+    text-align: center;
+  }
+  h2{
+    color:white;
+    margin: 0px 0px 25px 0px;
+    padding-top: 150px;
+    font-family: $serif-text;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+
+  }
+  p{
+    display: block;
+    margin: 0px auto 67px;
+    width: 49%;
+    color: white;
+    font-size: 0.875em; /* 14px */
+    line-height: 23px;
+  }
+  a{
+    background: $button-green;
+    display: block;
+    margin: 0 auto;
+    width: 14%;
+    height: 46px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-size:  0.875em;  /* 14px */
+    font-weight: bold;
+  }
+}
+
+  /* Main shipping*/
+#main-box-shipping {
+  background: #f9f9f9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  #shipping {
+    margin: 0 auto;
+    width: 900px;
+    background: white;
+    box-shadow: 0px 0px 13px 3px #e0dfdf;
+
+    h4 {
+      margin: 40px 0px;
+      font-family: $serif-text;
+      font-weight: bold;
+    }
+    .inputs {
+      display: block;
+      width: 100%;
+      height: 51px;
+      border: 1px solid #d0d0d0;
+      margin-bottom: 18px;
+      padding-left: 25px;
+      font-size: 0.875em; /* 14px */
+      border-radius: 4px;
+    }
+    textarea{
+      width: 100%;
+      height: 138px;
+      border: 1px solid #d0d0d0;
+      font-size: 0.875em; /* 14px */
+      padding: 20px 23px;
+      border-radius: 4px;
+    }
+    .payment-button{
+      float: right;
+      background: #77bb17;
+      display: inline-block;
+      margin-bottom: 45px;
+      margin-top: 35px;
+      width: 25%;
+      height: 46px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      line-height: 46px;
+      font-size: 0.875em;
+      font-weight: bold;
+      box-shadow: 0px 3px 6px 0px #c5c5c5;
+
+      .fa-chevron-right{
+        font-size: 11px;
+        margin-left: 3%;
+      }
+    }
+  }
+}
+
+
+ /* Footer*/
+
+@import "footer_css";

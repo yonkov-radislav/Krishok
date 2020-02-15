@@ -1,0 +1,135 @@
+/* Footer */
+$serif-text: 'Merriweather', serif;
+
+footer {
+  position: relative;
+  margin-top: 60px;
+  .footer-title{
+    font-family: $serif-text;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  hr{
+    display: inline-block;
+    margin-bottom: 40px;
+    width: 23%;
+    margin-top: 0;
+    margin-left: 0;
+    border: 0;
+    border-top: 1px solid #77bb17;
+  }
+  .instagram-feed-wrap{
+
+  }
+  span{
+    display: block;
+  };
+  .image-grid-top {
+    img {
+      display: block;
+      width: 33%;
+      float: left;
+      padding-right: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .image-grid-bottom {
+    img {
+      display: block;
+      width: 33%;
+      float: left;
+      padding-right: 5px;
+      margin-bottom: 60px;
+    }
+
+  }
+}
+
+/* Icons */
+.icons {
+  position: absolute;
+  bottom: 115px;
+  .facebook-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url('../img/sprite.png') no-repeat 0 -35px;
+    text-indent: 100%;
+    overflow: hidden;
+  }
+
+  .facebook-icon:hover {
+    background-position: 1px 0px;
+    border: none;
+  }
+
+  /* Twitter */
+
+  .twitter-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url('../img/sprite.png') no-repeat -36px -35px;
+    text-indent: 100%;
+    overflow: hidden;
+  }
+
+  .twitter-icon:hover {
+    background-position: -37px 0px;
+    border: none;
+  }
+
+  /* Linkedin */
+
+  .linkedin-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url('../img/sprite.png') no-repeat -143px -35px;
+    text-indent: 100%;
+    overflow: hidden;
+  }
+
+  .linkedin-icon:hover {
+    background-position: -140px 0px;
+    border: none;
+  }
+
+  /* Instagram */
+
+  .instagram-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url('../img/sprite.png') no-repeat -107px -35px;
+    text-indent: 100%;
+    overflow: hidden;
+  }
+
+  .instagram-icon:hover {
+    background-position: -106px 0px;
+    border: 1px solid #e1f4c0;
+  }
+}
+
+/* Copyright */
+
+.copyright{
+  height: 75px;
+  background: $basically-green;
+  span{
+    text-align: center;
+    color: white;
+    line-height: 75px;
+    font-size: 0.875em; /* 14px */
+  }
+}

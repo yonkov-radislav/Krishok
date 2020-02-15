@@ -1,0 +1,298 @@
+/* Header */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 16px; }
+
+/* site-wrap -1170px// body-1440px; */
+.site-wrap {
+  width: 81%;
+  margin: 0 auto; }
+
+.container {
+  width: 100%; }
+
+/* Top bar */
+.top-bar {
+  height: 50px;
+  background: #3f7d20; }
+
+.content {
+  line-height: 50px;
+  color: white;
+  font-size: 0.750em;
+  /* 12px */ }
+
+.telephone {
+  margin-right: 13px; }
+
+.number {
+  display: inline-block;
+  margin-left: 7px;
+  line-height: 28px;
+  margin-right: 0; }
+
+.email {
+  border-left: 1px solid #ffffff52;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding-top: -2px;
+  padding-left: 13px; }
+
+.right-content {
+  float: right; }
+
+.fa-angle-down {
+  font-size: 0.750em;
+  /* 7px */ }
+
+.language {
+  margin-right: 13px; }
+
+.login {
+  border-left: 1px solid #ffffff52;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding-top: -2px;
+  padding-left: 13px;
+  color: white; }
+
+/* Nav */
+.navbarr {
+  padding-top: 30px;
+  height: 80px;
+  background: white;
+  box-sizing: border-box; }
+
+#menu-toggle {
+  display: none;
+  float: right;
+  font-size: 26px;
+  color: #333; }
+
+#main-logo {
+  display: block;
+  float: left;
+  background: url("../img/logo.jpg") no-repeat;
+  width: 100px;
+  height: 20px; }
+
+#main-menu {
+  float: right; }
+  #main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  #main-menu li {
+    float: left; }
+  #main-menu a {
+    display: block;
+    text-decoration: none;
+    color: #303030;
+    text-transform: uppercase;
+    padding: 5px 11px;
+    font-size: 0.875em;
+    /* 14px */ }
+  #main-menu a:hover {
+    color: #77bb17;
+    transform: scale(1.1); }
+  #main-menu li:last-child a {
+    padding-right: 0px; }
+
+.selected {
+  font-weight: bold; }
+
+.header-img {
+  background-image: url("../img/checkout-img.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px; }
+  .header-img .box-in-img {
+    background: #0000009c;
+    height: 550px;
+    text-align: center; }
+  .header-img h2 {
+    color: white;
+    margin: 0px 0px 25px 0px;
+    padding-top: 150px;
+    font-family: "Merriweather", serif;
+    text-transform: uppercase;
+    letter-spacing: 6px; }
+  .header-img p {
+    display: block;
+    margin: 0px auto 67px;
+    width: 49%;
+    color: white;
+    font-size: 0.875em;
+    /* 14px */
+    line-height: 23px; }
+  .header-img a {
+    background: #77bb17;
+    display: block;
+    margin: 0 auto;
+    width: 14%;
+    height: 46px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-size: 0.875em;
+    /* 14px */
+    font-weight: bold; }
+
+/* Main shipping*/
+#main-box-shipping {
+  background: #f9f9f9;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  #main-box-shipping #shipping {
+    margin: 0 auto;
+    width: 900px;
+    background: white;
+    box-shadow: 0px 0px 13px 3px #e0dfdf; }
+    #main-box-shipping #shipping h4 {
+      margin: 40px 0px;
+      font-family: "Merriweather", serif;
+      font-weight: bold; }
+    #main-box-shipping #shipping .inputs {
+      display: block;
+      width: 100%;
+      height: 51px;
+      border: 1px solid #d0d0d0;
+      margin-bottom: 18px;
+      padding-left: 25px;
+      font-size: 0.875em;
+      /* 14px */
+      border-radius: 4px; }
+    #main-box-shipping #shipping textarea {
+      width: 100%;
+      height: 138px;
+      border: 1px solid #d0d0d0;
+      font-size: 0.875em;
+      /* 14px */
+      padding: 20px 23px;
+      border-radius: 4px; }
+    #main-box-shipping #shipping .payment-button {
+      float: right;
+      background: #77bb17;
+      display: inline-block;
+      margin-bottom: 45px;
+      margin-top: 35px;
+      width: 25%;
+      height: 46px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      line-height: 46px;
+      font-size: 0.875em;
+      font-weight: bold;
+      box-shadow: 0px 3px 6px 0px #c5c5c5; }
+      #main-box-shipping #shipping .payment-button .fa-chevron-right {
+        font-size: 11px;
+        margin-left: 3%; }
+
+/* Footer*/
+/* Footer */
+footer {
+  position: relative;
+  margin-top: 60px; }
+  footer .footer-title {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  footer hr {
+    display: inline-block;
+    margin-bottom: 40px;
+    width: 23%;
+    margin-top: 0;
+    margin-left: 0;
+    border: 0;
+    border-top: 1px solid #77bb17; }
+  footer span {
+    display: block; }
+  footer .image-grid-top img {
+    display: block;
+    width: 33%;
+    float: left;
+    padding-right: 5px;
+    margin-bottom: 5px; }
+  footer .image-grid-bottom img {
+    display: block;
+    width: 33%;
+    float: left;
+    padding-right: 5px;
+    margin-bottom: 60px; }
+
+/* Icons */
+.icons {
+  position: absolute;
+  bottom: 115px;
+  /* Twitter */
+  /* Linkedin */
+  /* Instagram */ }
+  .icons .facebook-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url("../img/sprite.png") no-repeat 0 -35px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons .facebook-icon:hover {
+    background-position: 1px 0px;
+    border: none; }
+  .icons .twitter-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url("../img/sprite.png") no-repeat -36px -35px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons .twitter-icon:hover {
+    background-position: -37px 0px;
+    border: none; }
+  .icons .linkedin-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url("../img/sprite.png") no-repeat -143px -35px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons .linkedin-icon:hover {
+    background-position: -140px 0px;
+    border: none; }
+  .icons .instagram-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url("../img/sprite.png") no-repeat -107px -35px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons .instagram-icon:hover {
+    background-position: -106px 0px;
+    border: 1px solid #e1f4c0; }
+
+/* Copyright */
+.copyright {
+  height: 75px;
+  background: #3f7d20; }
+  .copyright span {
+    text-align: center;
+    color: white;
+    line-height: 75px;
+    font-size: 0.875em;
+    /* 14px */ }
+
+/*# sourceMappingURL=checkout.css.map */

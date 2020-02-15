@@ -1,0 +1,370 @@
+@import "header_css";
+
+   /* Main */
+
+.product-detail{
+  padding-top: 65px;
+  background: #f9f9f9;
+
+  #big-img{
+    background-image: url("../img/product-detail-skin.jpg");
+    background-repeat: no-repeat;
+    background-size: 471px;
+    margin-bottom: 26px;
+    height: 548px;
+    background-position: center;
+  }
+
+  #small-img:first-child{
+    margin-left: 12%;
+  }
+  #small-img{
+    width: auto;
+    height: 66px;
+    margin-right: 2%;
+  }
+
+  #fel-small-img{
+    margin-bottom: 35px;
+  }
+
+
+}
+
+.box-product-detail{
+  margin-top: 28px;
+  padding-left: 11%;
+
+  h4{
+    font-weight: bold;
+    font-family: $serif-text;
+  }
+  #bottom-product-name{
+    float: left;
+    width: 16%;
+    margin: 0px 0px 40px 0px;
+    border-top: 1px solid #77bb17;
+  }
+
+  .share-love{
+    float: right;
+    width: 40px;
+    margin-right: 9%;
+    padding: 10px 0px;
+    color: #9cbb8c;
+    border: 1px solid #efecec;
+    text-align: center;
+  }
+  .fa-heart:hover{
+    color: $basically-green;
+    transform: scale(1.2);
+  }
+  .fa-share-alt:hover{
+    color: $basically-green;
+    transform: scale(1.2);
+  }
+  hr{
+    margin: 9px 0px;
+    padding: 0;
+    border-top: 1px solid #efecec;
+  }
+
+  .box-price{
+    margin-bottom: 28px;
+  }
+  .price{
+
+    display: inline-block;
+    margin-right: 5%;
+    font-size: 1.500em; /* 24px */
+    font-weight: bold;
+    font-family: 'Lora', serif;
+  }
+
+  .reduction{
+    position: relative;
+  }
+  #reduction-hr{
+    top: 0px;
+    left: -3%;
+    width: 106%;
+    position: absolute;
+    border-top: 1px solid black;
+  }
+
+  .give-star{
+    color: $basically-green;
+    margin-bottom: 20px;
+    font-size: 0.750em; /* 12px */
+  }
+
+
+  .stock{
+    display: block;
+    font-family: 'Lora', serif;
+    margin-bottom: 40px;
+  }
+   /* Buttons for buy */
+  .bue-now{
+    background: $button-green;
+    display: inline-block;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    width: 28%;
+    height: 46px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 46px;
+    font-size:  0.875em;  /* 14px */
+    font-weight: bold;
+    box-shadow: 0px 3px 6px 0px #c5c5c5;
+  }
+
+  .fa-shopping-cart {
+    margin-left: 4%;
+    font-size: 0.813em;  /* 13px */
+  }
+
+  .add-to-list{
+    background: #f9f9f9;
+    display: inline-block;
+    width: 28%;
+    border: 1px solid #77bb17;
+    height: 46px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    font-size: 0.875em;
+    font-weight: bold;
+  }
+
+  .fa-heart {
+    margin-left: 4%;
+    font-size: 0.813em;  /* 13px */
+  }
+
+  p{
+    font-size: 14px;
+    width: 85%;
+  }
+
+  #write-review{
+    font-size: 0.750em; /* 12px */
+    text-decoration: underline;
+    color: $basically-green;
+  }
+
+
+}
+
+  /* Similar-product */
+
+.similar-product{
+  margin-bottom: 80px;
+  h2{
+    padding-top: 70px;
+    text-align: center;
+    font-family: $serif-text;
+    font-weight: bold;
+
+  }
+
+  .similar-product-decsription{
+    display: block;
+    margin: 0px auto 80px;
+
+    width: 48%;
+  }
+  p{
+    text-align: center;
+    margin: 0;
+  }
+
+
+    .items {
+      border: 1px solid #efecec;
+      width: 100%;
+      height: 330px;
+      margin: 0;
+      padding: 0;
+
+      .product-images{
+        img{
+          display: block;
+          margin: 28px auto;
+          width: auto;
+          height: 186px;
+        }
+
+
+      }
+
+      h4 {
+        display: block;
+        margin-top: 36px;
+        text-align: center;
+      }
+
+      .price{
+        border-top: 1px solid #8fd613;
+        text-align: center;
+        display: block;
+        width: 45%;
+        margin: 0 auto;
+        padding-top: 10px;
+      }
+    }
+  }
+
+  /* Recently-viewed*/
+
+.recently-viewed{
+  background: #f9f9f9;
+  h2{
+    padding-top: 70px;
+    text-align: center;
+    font-family: $serif-text;
+    font-weight: bold;
+
+  }
+
+  .recently-viewed-description{
+    display: block;
+    margin: 0px auto 80px;
+    width: 48%;
+  }
+  p{
+    text-align: center;
+    margin: 0;
+  }
+
+  .items {
+    border: 1px solid #efecec;
+    width: 100%;
+    height: 330px;
+    margin: 0px 0px 80px 0px;
+    padding: 0;
+    background: white;
+
+    .product-images{
+      img{
+        display: block;
+        margin: 28px auto;
+        width: auto;
+        height: 186px;
+      }
+
+
+    }
+
+    h4 {
+      display: block;
+      margin-top: 36px;
+      text-align: center;
+    }
+
+    .price{
+      border-top: 1px solid #8fd613;
+      text-align: center;
+      display: block;
+      width: 45%;
+      margin: 0 auto;
+      padding-top: 10px;
+    }
+  }
+
+}
+#scroll-to-top-btn{
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  height: 43px;
+  background: #3f7d20;
+  border: none;
+  border-radius: 8px;
+  font-size: 31px;
+  color: white;
+  z-index: 999;
+}
+
+  /* FOOTER */
+
+@import "footer_css";
+
+/* ---------------------------------------------Responsive------------------------------------------------------- */
+
+
+/* Footer */
+
+
+
+
+@media only screen and (max-width: 960px) {
+  .icons{
+    position: static;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .navbarr {
+    padding-top: 10px;
+    height: auto;
+  }
+  #main-logo {
+    float: none;
+    margin: 0 auto 10px;
+  }
+  #main-menu {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #main-menu ul {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+  .navbarr{
+    margin-bottom: 20px;
+  }
+  #main-menu{
+    display: none;
+
+    li{
+      float: none;
+    }
+
+  }
+  .content{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 0.750em; /*12px */
+    .telephone{
+      margin-right: 1px;
+    }
+    .email{
+      padding-left: 3px;
+      margin-right: 4px;
+    }
+    .right-content{
+      float: none;
+      .language{
+        margin-right: 3px;
+      }
+      .login{
+        padding-left: 4px;
+      }
+    }
+  }
+  #menu-toggle{
+    display: block;
+    height: 30px;
+    margin-right: 15px;
+  }
+}

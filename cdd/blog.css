@@ -1,0 +1,426 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 16px; }
+
+/* site-wrap -1170px// body-1440px; */
+.site-wrap {
+  width: 81%;
+  margin: 0 auto; }
+
+.container {
+  width: 100%; }
+
+/* Top bar */
+.top-bar {
+  height: 50px;
+  background: #3f7d20; }
+
+.content {
+  line-height: 50px;
+  color: white;
+  font-size: 0.750em;
+  /* 12px */ }
+
+.telephone {
+  margin-right: 13px; }
+
+.number {
+  display: inline-block;
+  margin-left: 7px;
+  line-height: 28px;
+  margin-right: 0; }
+
+.email {
+  border-left: 1px solid #ffffff52;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding-top: -2px;
+  padding-left: 13px; }
+
+.right-content {
+  float: right; }
+
+.fa-angle-down {
+  font-size: 0.750em;
+  /* 7px */ }
+
+.language {
+  margin-right: 13px; }
+
+.login {
+  border-left: 1px solid #ffffff52;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding-top: -2px;
+  padding-left: 13px;
+  color: white; }
+
+/* Nav */
+.navbarr {
+  padding-top: 30px;
+  height: 80px;
+  background: white;
+  box-sizing: border-box; }
+
+#menu-toggle {
+  display: none;
+  float: right;
+  font-size: 26px;
+  color: #333; }
+
+#main-logo {
+  display: block;
+  float: left;
+  background: url("../img/logo.jpg") no-repeat;
+  width: 100px;
+  height: 20px; }
+
+#main-menu {
+  float: right; }
+  #main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  #main-menu li {
+    float: left; }
+  #main-menu a {
+    display: block;
+    text-decoration: none;
+    color: #303030;
+    text-transform: uppercase;
+    padding: 5px 11px;
+    font-size: 0.875em;
+    /* 14px */ }
+  #main-menu a:hover {
+    color: #77bb17;
+    transform: scale(1.1); }
+  #main-menu li:last-child a {
+    padding-right: 0px; }
+
+.selected {
+  font-weight: bold; }
+
+.header-img {
+  background-image: url("../img/faq-header-img.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px; }
+  .header-img .box-in-img {
+    background: #0000009c;
+    height: 550px;
+    text-align: center; }
+  .header-img h2 {
+    color: white;
+    margin: 0px 0px 25px 0px;
+    padding-top: 150px;
+    font-family: "Merriweather", serif;
+    letter-spacing: 6px;
+    text-transform: uppercase; }
+  .header-img p {
+    display: block;
+    margin: 0px auto 67px;
+    width: 49%;
+    color: white;
+    font-size: 0.875em;
+    /* 14px */
+    line-height: 23px; }
+  .header-img .search-form {
+    background: #ffffff4a;
+    display: block;
+    margin: 0 auto;
+    border-radius: 23px;
+    width: 28%;
+    height: 46px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 46px;
+    font-size: 0.875em; }
+    .header-img .search-form #search {
+      float: left;
+      padding-left: 7%; }
+    .header-img .search-form .fa-search {
+      float: right;
+      margin-right: 6%;
+      margin-top: 16px;
+      font-size: 16px; }
+
+/* Icons */
+.icons-blog {
+  position: absolute;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 7%;
+  /* Twitter */
+  /* Linkedin */
+  /* Instagram */ }
+  .icons-blog .facebook-icon {
+    display: block;
+    width: 36px;
+    margin-bottom: 7px;
+    height: 37px;
+    background: url(../img/sprite.png) no-repeat 0 0px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons-blog .facebook-icon:hover {
+    background-position: -1px -35px;
+    border: 1px solid #e4e4e4; }
+  .icons-blog .twitter-icon {
+    display: block;
+    width: 36px;
+    margin-bottom: 7px;
+    height: 37px;
+    background: url(../img/sprite.png) no-repeat -36px 0px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons-blog .twitter-icon:hover {
+    background-position: -37px -35px;
+    border: 1px solid #e4e4e4; }
+  .icons-blog .linkedin-icon {
+    display: block;
+    width: 36px;
+    margin-bottom: 7px;
+    height: 37px;
+    background: url(../img/sprite.png) no-repeat -142px 0px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons-blog .linkedin-icon:hover {
+    background-position: -144px -36px;
+    border: 1px solid #e4e4e4; }
+  .icons-blog .instagram-icon {
+    display: block;
+    width: 36px;
+    height: 37px;
+    background: url(../img/sprite.png) no-repeat -108px 0px;
+    text-indent: 100%;
+    border: 1px solid #e4e4e4;
+    overflow: hidden; }
+  .icons-blog .instagram-icon:hover {
+    background-position: -108px -35px;
+    border: 1px solid #e4e4e4; }
+
+/*Blog content */
+.blog-content {
+  padding-top: 100px;
+  /*Video*/ }
+  .blog-content .img-blog {
+    background-image: url(../img/blog-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center;
+    height: 306px;
+    margin-bottom: 50px; }
+  .blog-content .col-md-2 {
+    padding: 0; }
+    .blog-content .col-md-2 .box-right-img {
+      margin-bottom: 85px; }
+      .blog-content .col-md-2 .box-right-img .title-article {
+        margin-top: 0px;
+        font-weight: bold;
+        font-family: "Merriweather", serif; }
+      .blog-content .col-md-2 .box-right-img .content-article {
+        font-size: 0.813em;
+        /* 13px */ }
+      .blog-content .col-md-2 .box-right-img .separator {
+        margin-top: 0px; }
+  .blog-content .title-bottom-img {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    margin-bottom: 30px; }
+  .blog-content .author-and-date {
+    display: block;
+    color: #6c6c6c;
+    font-size: 0.813em;
+    /* 13px */
+    margin-bottom: 30px; }
+  .blog-content .big-articles {
+    font-size: 0.875em;
+    /* 14px */
+    margin-bottom: 50px; }
+  .blog-content .bottom-right-box .title-article {
+    margin-top: 0px;
+    font-weight: bold;
+    font-family: "Merriweather", serif; }
+  .blog-content .bottom-right-box .content-article {
+    font-size: 0.813em;
+    /* 13px */ }
+  .blog-content .bottom-right-box .separator {
+    margin-top: 0px; }
+  .blog-content .video .fruits-video {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    height: 360px; }
+
+#scroll-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  height: 43px;
+  background: #3f7d20;
+  border: none;
+  border-radius: 8px;
+  font-size: 31px;
+  color: white;
+  z-index: 999; }
+
+.comments {
+  margin-top: 35px;
+  height: 45px;
+  background: #77bb17;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  line-height: 45px;
+  font-size: 0.750em;
+  /* 12px*/ }
+  .comments .fa-angle-down {
+    font-size: 15px;
+    margin-left: 10px; }
+
+.subscribe {
+  height: 240px;
+  background-image: url("../img/img-subscribe.jpg");
+  background-size: cover;
+  background-position: bottom; }
+  .subscribe .subscribe-content {
+    height: 240px;
+    background: #0000009c; }
+    .subscribe .subscribe-content h3 {
+      margin-top: 0px;
+      padding-top: 65px;
+      color: white;
+      text-align: center;
+      font-family: "Merriweather", serif; }
+    .subscribe .subscribe-content .subscribe-box {
+      width: 42.2%;
+      height: 53px;
+      margin: 45px auto;
+      background: #ffffff66;
+      border-radius: 27px; }
+      .subscribe .subscribe-content .subscribe-box .subscribe-email {
+        display: inline-block;
+        color: #ffffffdb;
+        font-size: 14px;
+        line-height: 53px;
+        margin-left: 5%; }
+      .subscribe .subscribe-content .subscribe-box a {
+        float: right;
+        display: block;
+        width: 32%;
+        height: 53px;
+        text-align: center;
+        font-size: 0.875em;
+        /* 14px */
+        text-decoration: none;
+        line-height: 52px;
+        color: white;
+        background: #3f7d20;
+        border-radius: 27px; }
+
+/* foother */
+/* Footer */
+footer {
+  position: relative;
+  margin-top: 80px; }
+  footer .footer-title {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  footer hr {
+    display: inline-block;
+    margin-bottom: 40px;
+    width: 23%;
+    margin-top: 0;
+    margin-left: 0;
+    border: 0;
+    border-top: 1px solid #77bb17; }
+  footer span {
+    display: block; }
+  footer .image-grid-top img {
+    display: block;
+    width: 33%;
+    float: left;
+    padding-right: 5px;
+    margin-bottom: 5px; }
+  footer .image-grid-bottom img {
+    display: block;
+    width: 33%;
+    float: left;
+    padding-right: 5px;
+    margin-bottom: 60px; }
+
+/* Icons */
+.icons {
+  position: absolute;
+  bottom: 115px;
+  /* Twitter */
+  /* Linkedin */
+  /* Instagram */ }
+  .icons .facebook-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url("../img/sprite.png") no-repeat 0 -35px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons .facebook-icon:hover {
+    background-position: 1px 0px;
+    border: none; }
+  .icons .twitter-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url("../img/sprite.png") no-repeat -36px -35px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons .twitter-icon:hover {
+    background-position: -37px 0px;
+    border: none; }
+  .icons .linkedin-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url("../img/sprite.png") no-repeat -143px -35px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons .linkedin-icon:hover {
+    background-position: -140px 0px;
+    border: none; }
+  .icons .instagram-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 38px;
+    border: 1px solid #e1f4c0;
+    height: 37px;
+    background: url("../img/sprite.png") no-repeat -107px -35px;
+    text-indent: 100%;
+    overflow: hidden; }
+  .icons .instagram-icon:hover {
+    background-position: -106px 0px;
+    border: 1px solid #e1f4c0; }
+
+/* Copyright */
+.copyright {
+  height: 75px;
+  background: #3f7d20; }
+  .copyright span {
+    text-align: center;
+    color: white;
+    line-height: 75px;
+    font-size: 0.875em;
+    /* 14px */ }
+
+/*# sourceMappingURL=blog.css.map */

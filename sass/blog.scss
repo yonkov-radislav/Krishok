@@ -1,0 +1,232 @@
+@import "header_css";
+
+.header-img {
+  background-image: url('../img/faq-header-img.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+
+  .box-in-img{
+    background: rgba(0, 0, 0, 0.61);
+    height: 550px;
+    text-align: center;
+  }
+  h2{
+    color:white;
+    margin: 0px 0px 25px 0px;
+    padding-top: 150px;
+    font-family: $serif-text;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+  }
+  p{
+    display: block;
+    margin: 0px auto 67px;
+    width: 49%;
+    color: white;
+    font-size: 0.875em; /* 14px */
+    line-height: 23px;
+  }
+  .search-form{
+    background: rgba(255, 255, 255, 0.29);
+    display: block;
+    margin: 0 auto;
+    border-radius: 23px;
+    width: 28%;
+    height: 46px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 46px;
+    font-size: 0.875em;
+    #search{
+      float: left;
+      padding-left: 7%;
+    }
+    .fa-search{
+      float: right;
+      margin-right: 6%;
+      margin-top: 16px;
+      font-size: 16px;
+    }
+  }
+
+}
+
+/* Icons */
+.icons-blog {
+  position: absolute;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 7%;
+  .facebook-icon {
+    display: block;
+    width: 36px;
+    margin-bottom: 7px;
+    height: 37px;
+    background: url(../img/sprite.png) no-repeat 0 0px;
+    text-indent: 100%;
+    overflow: hidden;
+  }
+
+  .facebook-icon:hover {
+    background-position: -1px -35px;
+    border: 1px solid #e4e4e4;
+  }
+
+  /* Twitter */
+
+  .twitter-icon {
+    display: block;
+    width: 36px;
+    margin-bottom: 7px;
+    height: 37px;
+    background: url(../img/sprite.png) no-repeat -36px 0px;
+    text-indent: 100%;
+    overflow: hidden;
+  }
+
+  .twitter-icon:hover {
+    background-position: -37px -35px;
+    border: 1px solid #e4e4e4;
+  }
+
+  /* Linkedin */
+
+  .linkedin-icon {
+    display: block;
+    width: 36px;
+    margin-bottom: 7px;
+    height: 37px;
+    background: url(../img/sprite.png) no-repeat -142px 0px;
+    text-indent: 100%;
+    overflow: hidden;
+  }
+
+  .linkedin-icon:hover {
+    background-position: -144px -36px;
+    border: 1px solid #e4e4e4;
+  }
+
+  /* Instagram */
+
+  .instagram-icon {
+    display: block;
+    width: 36px;
+    height: 37px;
+    background: url(../img/sprite.png) no-repeat -108px 0px;
+    text-indent: 100%;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+  }
+
+  .instagram-icon:hover {
+    background-position: -108px -35px;
+    border: 1px solid #e4e4e4;
+  }
+}
+
+
+ /*Blog content */
+
+.blog-content{
+  padding-top: 100px;
+  .img-blog{
+    background-image: url(../img/blog-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center;
+    height: 306px;
+    margin-bottom: 50px;
+  }
+
+  .col-md-2{
+    padding: 0;
+    .box-right-img{
+      margin-bottom: 85px;
+      .title-article{
+        margin-top: 0px;
+        font-weight: bold;
+        font-family: $serif-text;
+      }
+      .content-article{
+        font-size: 0.813em; /* 13px */
+      }
+      .separator{
+        margin-top: 0px;
+      }
+    }
+
+  }
+.title-bottom-img{
+  font-family: $serif-text;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+  .author-and-date{
+    display: block;
+    color:#6c6c6c;
+    font-size: 0.813em; /* 13px */
+    margin-bottom: 30px;
+  }
+  .big-articles{
+    font-size: 0.875em; /* 14px */
+    margin-bottom: 50px;
+  }
+  .bottom-right-box{
+    .title-article{
+      margin-top: 0px;
+      font-weight: bold;
+      font-family: $serif-text;
+    }
+    .content-article{
+      font-size: 0.813em; /* 13px */
+    }
+    .separator{
+      margin-top: 0px;
+    }
+  }
+
+  /*Video*/
+  .video{
+    .fruits-video{
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 60px;
+      height: 360px;
+    }
+  }
+
+}
+#scroll-to-top-btn{
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  height: 43px;
+  background: #3f7d20;
+  border: none;
+  border-radius: 8px;
+  font-size: 31px;
+  color: white;
+  z-index: 999;
+}
+.comments{
+  margin-top: 35px;
+  height: 45px;
+  background: #77bb17;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  line-height: 45px;
+  font-size: 0.750em; /* 12px*/
+  .fa-angle-down{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
+@import "subscribe_css";
+/* foother */
+@import "footer_css";
